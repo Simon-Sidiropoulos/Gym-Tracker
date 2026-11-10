@@ -7,7 +7,7 @@ export default function WeeklySummary() {
 
   return (
     <div className="bg-gray-800 rounded-lg p-6 shadow-xl">
-      <h2 className="text-2xl font-bold mb-6 text-orange-400">📊 This Week</h2>
+      <h2 className="text-2xl font-bold mb-6 text-orange-400">This Week</h2>
       
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
         <div className="bg-linear-to-br from-blue-900/50 to-blue-700/30 p-4 rounded-lg border border-blue-500/30">
@@ -70,7 +70,7 @@ export default function WeeklySummary() {
       {summary.workouts.length === 0 && (
         <div className="text-center py-8">
           <p className="text-gray-400 mb-2">No workouts this week yet.</p>
-          <p className="text-sm text-gray-500">Time to hit the gym! 💪</p>
+          <p className="text-sm text-gray-500">Time to hit the gym!</p>
         </div>
       )}
     </div>

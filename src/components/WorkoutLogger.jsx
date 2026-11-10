@@ -172,7 +172,7 @@ export default function WorkoutLogger() {
             onClick={saveWorkout}
             className="w-full mt-4 px-6 py-3 bg-green-600 hover:bg-green-700 rounded-lg transition font-bold text-lg"
           >
-            Save Workout 💪
+            Save Workout
           </button>
         </div>
       )}

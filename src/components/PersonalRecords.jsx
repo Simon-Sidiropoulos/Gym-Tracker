@@ -11,7 +11,7 @@ export default function PersonalRecords() {
   if (records.length === 0) {
     return (
       <div className="bg-gray-800 rounded-lg p-6 shadow-xl">
-        <h2 className="text-2xl font-bold mb-4 text-purple-400">🏆 Personal Records</h2>
+        <h2 className="text-2xl font-bold mb-4 text-purple-400">Personal Records</h2>
         <p className="text-gray-400">No PRs yet. Start logging workouts to track your progress!</p>
       </div>
     );
@@ -19,7 +19,7 @@ export default function PersonalRecords() {
 
   return (
     <div className="bg-gray-800 rounded-lg p-6 shadow-xl">
-      <h2 className="text-2xl font-bold mb-6 text-purple-400">🏆 Personal Records</h2>
+      <h2 className="text-2xl font-bold mb-6 text-purple-400">Personal Records</h2>
       
       <div className="grid gap-4">
         {records.map(([exercise, record]) => (

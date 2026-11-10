@@ -24,7 +24,7 @@ export default function ProgressCharts() {
 
   return (
     <div className="bg-gray-800 rounded-lg p-6 shadow-xl">
-      <h2 className="text-2xl font-bold mb-6 text-green-400">📈 Progress Charts</h2>
+      <h2 className="text-2xl font-bold mb-6 text-green-400">Progress Charts</h2>
       
       <div className="mb-6">
         <label className="block text-sm font-medium mb-2">Select Exercise</label>
